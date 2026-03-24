@@ -1,0 +1,64 @@
+{
+  "spider": "http://103.163.47.120:666/蓝天/s9doPjDk.jar;md5;329e914a90b0bb5c7cb69b0eaec19700",
+  "wallpaper": "https://gitee.com/ltby1/vip/raw/master/蓝天白云.jpg",
+  "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
+  "sites": [
+    {
+      "key": "腾讯视频",
+      "name": "🌼4K┃腾讯",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/aubucudu/jxtvv/refs/heads/main/api.js",
+      "ext": "https://gitee.com/cccbb/jj/raw/master/tx.js"
+    },
+    {
+      "key": "哔哩",
+      "name": "🌼4K┃哔哩",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/aubucudu/jxtvv/refs/heads/main/api.js",
+      "ext": "https://raw.githubusercontent.com/aubucudu/jxtvv/refs/heads/main/bl.js"
+    },
+    {
+      "key": "mgsp3",
+      "name": "🌼4K┃芒果",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/aubucudu/jxtvv/refs/heads/main/api.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/aubucudu/jxtvv/refs/heads/main/mg.js"
+    },
+    {
+            "key": "yingtan",
+            "name": "🎬影探4K✨资源秒播",
+            "type": 4,
+            "api": "https://catbox.n13.club/18/影探影视.php"
+        },
+        {
+            "key": "影探",
+            "name": "🤠臻彩4K✨资源秒播",
+            "type": 3,
+            "api": "https://tvv.tw/https://raw.githubusercontent.com/tushen6/xxooo/refs/heads/main/TV/yingtan.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        }
+  ],
+  "parses": [
+    {
+      "name": "4k解析",
+      "type": 1,
+      "url": "http://103.163.47.120:7777/api/?key=Cm0WZpPeSVl0rsJhvC&url="
+    }
+  ],
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "playerType": 1,
+      "url": "http://43.248.192.34:666/12.txt",
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.mxdyeah.top/api/diyp/?ch={name}&date={date}"
+    }
+  ]
+}
