@@ -1,0 +1,138 @@
+{
+  
+  "sites": [
+    {
+      "key": "腾讯视频",
+      "name": "🌼4K┃腾讯",
+      "type": 3,
+      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+      "ext": "http://43.248.192.34:666/tx.js"
+    },
+    {
+      "key": "哔哩",
+      "name": "🌼4K┃哔哩",
+      "type": 3,
+      "api": "http://119.91.196.208:23000/json/drpy_libs/drpy2.min.js",
+      "ext": "http://43.248.192.34:666/bz.js"
+    },
+    {
+      "key": "mgsp3",
+      "name": "🌼4K┃芒果",
+      "type": 3,
+      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://43.248.192.34:666/mg.js"
+    },
+    {
+      "key": "奇珍异兽",
+      "name": "🌼高清┃奇艺",
+      "type": 3,
+      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+      "ext": "http://43.248.192.34:666/iqy.js"
+    },
+    {
+      "key": "优酷",
+      "name": "🌼高清┃优酷",
+      "type": 3,
+      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://43.248.192.34:666/yk.js"
+    },
+    {
+      "key": "565",
+      "name": "4K HDR",
+      "type": 1,
+      "api": "https://www.caiji.cyou/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "秒看",
+      "name": "🌼秒看┃4K",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://mk1080.top",
+        "dataKey": "c60d88b2eep53za8",
+        "dataIv": "c60d88b2eep53za8",
+        "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
+      },
+      "jar": "https://gitee.com/xuyicheng11/baipiaoya/raw/master/lib/白嫖鸭.jar"
+    },
+    {
+      "key": "py_官方采集789",
+      "name": "🌼高清┃GF",
+      "type": 4,
+      "api": "https://py.doube.eu.org/v2/spider?site=006849a2c19a6be413be5017be468c63",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "360",
+      "name": "🌼蓝天┃360",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playurl": "https://www.360jiexi.com/player/?url=",
+      "categories": [
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ]
+    },
+    {
+      "key": "腾讯规则",
+      "name": "🌼蓝天┃腾备",
+      "type": 3,
+      "api": "https://gitee.com/ltby1/one/raw/master/lib/drpy2.min.js",
+      "ext": "http://43.248.192.34:666/b.js"
+    }
+  ],
+  "parses": [
+    {
+      "name": "4k解析",
+      "type": 1,
+      "url": "http://103.163.47.120:7777/api/?key=Cm0WZpPeSVl0rsJhvC&url="
+    }
+  ],
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "playerType": 1,
+      "url": "http://43.248.192.34:666/12.txt",
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.mxdyeah.top/api/diyp/?ch={name}&date={date}"
+    }
+  ]
+}
